@@ -1,0 +1,16 @@
+[project]
+name = "qrt-2021-liquid"
+version = "0.1.0"
+description = "Reconstruction of Liquid Asset Performance"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "matplotlib>=3.10.1",
+    "numpy>=2.2.4",
+    "pandas>=2.2.3",
+    "polars>=1.26.0",
+    "pyarrow>=20.0.0",
+    "scikit-learn>=1.6.1",
+    "xgboost>=3.0.0",
+]
