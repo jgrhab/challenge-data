@@ -1,6 +1,6 @@
 # Stock Return Prediction by QRT (2020)
 
-https://challengedata.ens.fr/challenges/23/
+https://challengedata.ens.fr/challenges/23
 
 ## Overview
 
