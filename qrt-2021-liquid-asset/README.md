@@ -1,6 +1,6 @@
 # Reconstruction of Liquid Asset Performance, by QRT (2021)
 
-https://challengedata.ens.fr/challenges/44/
+https://challengedata.ens.fr/challenges/44
 
 ## Overview 
 
