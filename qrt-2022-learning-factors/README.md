@@ -8,7 +8,7 @@ The aim of this challenge is to learn one matrix $A \in \mathbb{R}^{D \times F}$
 with orthonormal columns and
 one vector $\beta \in \mathbb{R}^F$ which maximises the metric on predictions of
 the form
-$$ \hat{R}_{t+k+1} = (R_{t+k} \dots R_{k}) \cdot A \cdot \beta. $$
+$R_{t+k+1} = (R_{t+k} \dots R_{k}) \cdot A \cdot \beta$.
 Here, $D = 250$ is the number of days in one input example,
 $F = 10$ is the number of factors, and $R_t \in \mathbb{R}^N$ 
 is the column vector of returns at time $t$ (containing the returns of $N = 50$ stocks).
@@ -46,7 +46,7 @@ then taking an optimiser step, and finally retracting the result onto the manifo
 See for instance the [book by N. Boumal](https://www.cambridge.org/us/universitypress/subjects/mathematics/optimization-or-and-risk-analysis/introduction-optimization-smooth-manifolds?format=PB&isbn=9781009166157) for the general methodology and details about the Stiefel 
 manifold.
 The most commonly used retraction is the Cayley retraction, which can be implemented
-in a computationally efficient manner using the [Sherman--Morrison formula](https://en.wikipedia.org/wiki/Sherman%E2%80%93Morrison_formula) (or Sherman--Morrison--Woodbury formula).
+in a computationally efficient manner using the [Sherman-Morrison formula](https://en.wikipedia.org/wiki/Sherman%E2%80%93Morrison_formula) (or Sherman-Morrison-Woodbury formula).
 
 Of course, neither of these methods should produce better results as the simple linear 
 regression and both are more computationally expensive.
